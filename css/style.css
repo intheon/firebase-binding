@@ -1,0 +1,64 @@
+html, body, h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: arial;
+}
+
+main
+{
+	padding: 1%;
+}
+
+button
+{
+	padding: 2%;
+	background: rgba(0,0,0,0.2);
+	outline: none;
+	border:none;
+}
+input[type="text"]
+{
+	padding: 2%;
+}
+button:hover
+{
+	background: rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+#app-main
+{
+	display: none;
+	float:left;
+	width: 90%;
+	padding-left:10%;
+}
+
+#sign-out
+{
+	float:left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#signed-in-user-data
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 1%;
+	background: rgba(71, 101, 134, 0.3);
+}
+
+#todo-app
+{
+	padding-top: 5%;
+}
+
+
